@@ -30,7 +30,7 @@
               <li id="e7" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px;  margin-left: -5; cursor: pointer; display: flex;">
                     <img src="https://cdn.yellowmessenger.com/o2BBDya1HiQT1622800956549.png" style="width: 3.5rem; height: auto;" />
               </li>
-              <li id="e8" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px;  margin-left: -5; cursor: pointer; display: flex;">
+              <li id="e8" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; margin-left: -5; cursor: pointer; display: flex;">
                     <img src="https://cdn.yellowmessenger.com/g6Fdrr5NeUj01622800983140.png" style="width: 3.5rem; height: auto;" />
                 </li>
             </ul>
@@ -42,9 +42,7 @@
                 </div>
                 <div style="display: flex;">
                    <!-- <ul> -->
-                        // <li id="e9" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer;">
-                        //     <img src="https://cdn.yellowmessenger.com/mv8YPnKAfFOm1623088433384.png" style="width: 1.2rem; height: auto;" />
-                        // </li>
+                        
                         <li id="e9" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer;">
                             <img src="https://cdn.yellowmessenger.com/DOZyHmvCcjee1623088538196.jpg" style="width: 1.2rem; height: auto;" />
                         </li>
