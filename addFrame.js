@@ -6,7 +6,7 @@
         `<div>
         <div style="position: absolute; top: 0; left: 0px; right: 0; bottom: 0;">
             <ul class="sc-eCApnc jvVggF" style="display: flex; flex-direction: column; justify-content: center; background-color: #fff; padding: 0; width: 4rem; list-style: none; height: calc(100% - 91px); justify-content: space-between;border: 1px solid #ccc">
-                <li class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 7px; cursor: pointer; display: flex;">
+                <li class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 10px; cursor: pointer; display: flex;">
                     <img src="https://cdn.yellowmessenger.com/LS9XYE9urVcj1605084428877.png" style="width: 44px; height: auto;" />
                 </li>
                 <li id="e1" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 5px; cursor: pointer; display: flex;">
@@ -30,7 +30,7 @@
               <li id="e7" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 5px; cursor: pointer; display: flex;">
                     <img src="https://cdn.yellowmessenger.com/o2BBDya1HiQT1622800956549.png" style="width: 3.5rem; height: auto;" />
               </li>
-              <li id="e8" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 5px cursor: pointer; display: flex;">
+              <li id="e8" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 5px; cursor: pointer; display: flex;">
                     <img src="https://cdn.yellowmessenger.com/g6Fdrr5NeUj01622800983140.png" style="width: 3.5rem; height: auto;" />
                 </li>
             </ul>
