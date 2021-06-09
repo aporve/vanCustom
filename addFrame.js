@@ -22,16 +22,16 @@
                     <img src="https://cdn.yellowmessenger.com/FPloPRu3LmfA1622800812350.png" style="width: 3.5rem; height: auto;" />
                 </li>
                 <li id="e5" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/kQmY4m3NR5bW1623240660461.png" style="width: 3.5rem; height: auto;" />
+                    <img src="https://cdn.yellowmessenger.com/sULHcUPQH5RL1622800858305.png" style="width: 3.5rem; height: auto;" />
                 </li>
               <li id="e6" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/kQmY4m3NR5bW1623240660461.png" style="width: 3.5rem; height: auto;" />
+                    <img src="https://cdn.yellowmessenger.com/VLla29GmwVpi1622800914321.png" style="width: 3.5rem; height: auto;" />
                 </li>
               <li id="e7" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/n1ssM8RpxyX11623240488948.png" style="width: 3.5rem; height: auto;" />
+                    <img src="https://cdn.yellowmessenger.com/o2BBDya1HiQT1622800956549.png" style="width: 3.5rem; height: auto;" />
               </li>
               <li id="e8" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/n1ssM8RpxyX11623240488948.png" style="width: 3.5rem; height: auto;" />
+                    <img src="https://cdn.yellowmessenger.com/g6Fdrr5NeUj01622800983140.png" style="width: 3.5rem; height: auto;" />
                 </li>
             </ul>
         </div>
