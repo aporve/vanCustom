@@ -7,31 +7,31 @@
         <div style="position: absolute; top: 0; left: 0px; right: 0; bottom: 0;">
             <ul class="sc-eCApnc jvVggF" style="display: flex; flex-direction: column; justify-content: center; background-color: #fff; padding: 0; width: 3rem; list-style: none; height: calc(100% - 55px); justify-content: space-between;border: 1px solid #ccc">
                 <li class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/LS9XYE9urVcj1605084428877.png" style="width: 1.5rem; height: auto;" />
+                    <img src="https://cdn.yellowmessenger.com/LS9XYE9urVcj1605084428877.png" style="width: 3.5rem; height: auto;" />
                 </li>
-                <li id="e1" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/GnxBWRVeIm6i1622800692538.png" style="width: 1.5rem; height: auto;" />
+                <li id="e1" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/GnxBWRVeIm6i1622800692538.png" style="width: 3.5rem; height: auto;" />
                 </li>
-                <li id="e2" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/4dnzmSDugrwW1622800597860.png" style="width: 1.5rem; height: auto;" />
+                <li id="e2" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/4dnzmSDugrwW1622800597860.png" style="width: 3.5rem; height: auto;" />
                 </li>
-                <li id="e3" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/peOgkPdE8n0A1622800752931.png" style="width: 1.5rem; height: auto;" />
+                <li id="e3" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/peOgkPdE8n0A1622800752931.png" style="width: 3.5rem; height: auto;" />
                 </li>
-                <li id="e4" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/FPloPRu3LmfA1622800812350.png" style="width: 1.5rem; height: auto;" />
+                <li id="e4" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/FPloPRu3LmfA1622800812350.png" style="width: 3.5rem; height: auto;" />
                 </li>
-                <li id="e5" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/kQmY4m3NR5bW1623240660461.png" style="width: 1.5rem; height: auto;" />
+                <li id="e5" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/kQmY4m3NR5bW1623240660461.png" style="width: 3.5rem; height: auto;" />
                 </li>
-              <li id="e6" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/kQmY4m3NR5bW1623240660461.png" style="width: 1.5rem; height: auto;" />
+              <li id="e6" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/kQmY4m3NR5bW1623240660461.png" style="width: 3.5rem; height: auto;" />
                 </li>
-              <li id="e7" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/n1ssM8RpxyX11623240488948.png" style="width: 1.5rem; height: auto;" />
+              <li id="e7" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/n1ssM8RpxyX11623240488948.png" style="width: 3.5rem; height: auto;" />
               </li>
-              <li id="e8" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
-                    <img src="https://cdn.yellowmessenger.com/n1ssM8RpxyX11623240488948.png" style="width: 1.5rem; height: auto;" />
+              <li id="e8" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
+                    <img src="https://cdn.yellowmessenger.com/n1ssM8RpxyX11623240488948.png" style="width: 3.5rem; height: auto;" />
                 </li>
             </ul>
         </div>
