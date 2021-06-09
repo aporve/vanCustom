@@ -154,12 +154,12 @@ window.addEventListener('message', function(eventData) {
         }
 
         if(eventData.data == 'MINIMIZE') {
-            document.getElementById('ymIframe').style.display ="none"
+            window.YellowMessengerPlugin.closeBot();
         }
 
-        if(eventData.data == 'MINIMIZE') {
-            document.getElementById('ymIframe').style.display ="none"
-        }
+        // if(eventData.data == 'MINIMIZE') {
+        //     document.getElementById('ymIframe').style.display ="none"
+        // }
         
     }catch(error){
         console.log(error);
