@@ -18,7 +18,7 @@ function injectDynamicCssToChild() {
     var modularStyles = document.createElement('style');
     modularStyles.type = 'text/css';
 
-    var css = '#chatBoxMainContainer.message-icons.live-chat { margin: 3rem 0 0 3rem; }';
+    var css = '#chatBoxMainContainer.message-icons.live-chat { margin: 3rem 0 0 4rem; }';
     if (modularStyles.styleSheet) {
       modularStyles.styleSheet.cssText = css;
     } else {
