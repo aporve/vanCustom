@@ -93,7 +93,7 @@ document.getElementById('e7').onclick = function () {
 };
 
 document.getElementById('e8').onclick = function () {
-    document.getElementById('faq').innerHTML='Vcmm Care'
+    document.getElementById('faq').innerHTML='VCMM Core'
     parent.postMessage("VCMM", "*")
 };
 
