@@ -152,6 +152,14 @@ window.addEventListener('message', function(eventData) {
            }, '*');
            return;
         }
+
+        if(eventData.data == 'MINIMIZE') {
+            document.getElementById('ymIframe').style.display ="none"
+        }
+
+        if(eventData.data == 'MINIMIZE') {
+            document.getElementById('ymIframe').style.display ="none"
+        }
         
     }catch(error){
         console.log(error);

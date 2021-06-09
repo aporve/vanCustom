@@ -42,10 +42,10 @@
                 </div>
                 <div style="display: flex;">
                    <!-- <ul> -->
-                        <li class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer;">
+                        <li id="e9" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer;">
                             <img src="https://cdn.yellowmessenger.com/mv8YPnKAfFOm1623088433384.png" style="width: 1.2rem; height: auto;" />
                         </li>
-                        <li class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer;">
+                        <li id="e10" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer;">
                             <img src="https://cdn.yellowmessenger.com/DOZyHmvCcjee1623088538196.jpg" style="width: 1.2rem; height: auto;" />
                         </li>
                    <!-- </ul> -->
@@ -97,4 +97,8 @@ document.getElementById('e7').onclick = function () {
 document.getElementById('e8').onclick = function () {
     document.getElementById('faq').innerHTML='ASSET'
     parent.postMessage("VCMM", "*")
+};
+
+document.getElementById('e9').onclick = function () {
+    parent.postMessage("MINIMIZE", "*")
 };
