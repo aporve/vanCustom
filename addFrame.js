@@ -6,7 +6,7 @@
         `<div>
         <div style="position: absolute; top: 0; left: 0px; right: 0; bottom: 0;">
             <ul class="sc-eCApnc jvVggF" style="display: flex; flex-direction: column; justify-content: center; background-color: #fff; padding: 0; width: 3rem; list-style: none; height: calc(100% - 55px); justify-content: space-between;border: 1px solid #ccc">
-                <li class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 1rem; cursor: pointer; display: flex;">
+                <li class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 35px; padding: 10px; cursor: pointer; display: flex;">
                     <img src="https://cdn.yellowmessenger.com/LS9XYE9urVcj1605084428877.png" style="width: 3.5rem; height: auto;" />
                 </li>
                 <li id="e1" class="sc-jSFjdj jcTaHb" style="text-decoration: none; color: #fff; width: 100%; padding: 0px; cursor: pointer; display: flex;">
