@@ -37,7 +37,7 @@
             </div>
             <div class="overflow-container-header">
                 <ul class="header-wrapper">
-                    <div class="header-title" id="main-header-title">Header</div>
+                    <div class="header-title" id="main-header-title" style="font-weight: 700; font-size: x-large;color: black;">Vanguard</div>
                     <div id="e9" class="icons-box"> 
                         <span class="header-bar-icon-box" title="Close">x</span>
                      </div>
