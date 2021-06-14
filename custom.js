@@ -1,6 +1,5 @@
 (function injectJS() {
     try {        
-        document.getElementById('chatBoxMainContainer').style.height = '380px'
         var iFrameHead = window.frames["ymIframe"].document.getElementsByTagName("head")[0];         
         var modularBars = document.createElement('script');
         modularBars.type = 'text/javascript';
