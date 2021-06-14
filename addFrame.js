@@ -53,28 +53,40 @@ function dynamicHeaderTitle(e) {
     e.preventDefault(); 
     var title = e.srcElement.getAttribute("title"); 
     document.getElementById("main-header-title").textContent = title; 
-    console.log(e,'e~~~~~~>>>');
-    if(e == 'Active Passive'){
-        console.log('1')
-        parent.postMessage("ACTIVE", "*")
-    }else if(e == 'Asset Allocation'){
-        console.log('2')
-        parent.postMessage("ASSET", "*")
-    }else if(e == 'Economy'){
-        console.log('3')
-        parent.postMessage("ECON", "*")
-    }else if(e == 'Investor Behaviour'){
-        parent.postMessage("INVESTOR", "*")
-    }else if(e == 'ISG'){
-        parent.postMessage("ISG", "*")
-    }else if(e == 'Retirement Planning'){
-        parent.postMessage("RETIREMENT", "*")
-    }else if(e == 'Strategic Communications'){
-        parent.postMessage("POPFAQ", "*")
-    }else if(e == 'VCMM Core'){
-        parent.postMessage("VCMM", "*")
-    }
 }
+
+
+document.getElementById('e1').onclick = function () {
+    parent.postMessage("ACTIVE", "*")
+};
+
+document.getElementById('e2').onclick = function () {
+    parent.postMessage("ASSET", "*")
+};
+
+document.getElementById('e3').onclick = function () {
+    parent.postMessage("ECON", "*")
+};
+
+document.getElementById('e4').onclick = function () {
+    parent.postMessage("INVESTOR", "*")
+};
+
+document.getElementById('e5').onclick = function () {
+    parent.postMessage("ISG", "*")
+};
+
+document.getElementById('e6').onclick = function () {
+    parent.postMessage("RETIREMENT", "*")
+};
+
+document.getElementById('e7').onclick = function () {
+    parent.postMessage("POPFAQ", "*")
+};
+
+document.getElementById('e8').onclick = function () {
+    parent.postMessage("VCMM", "*")
+};
 
 document.getElementById('e9').onclick = function () {
     parent.postMessage("MINIMIZE", "*")
