@@ -1,7 +1,7 @@
 (function addFrames () {
      try { 
         document.getElementById('player').style.width= '0px'
-        document.getElementById('chatBoxMainContainer').style.height = 'calc(380px)'
+        // document.getElementById('chatBoxMainContainer').style.height = 'calc(380px)'
         document.querySelector('#chatContainer').insertAdjacentHTML( 
          'afterbegin', 
          `<div class="mod-head-side-bar-container">
