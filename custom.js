@@ -33,7 +33,7 @@ function injectDynamicCssToParent() {
     var parentStyles = document.createElement('style');
     parentStyles.type = 'text/css';
 
-    var parentCssStyles = '#ymFrameHolder { width: 100%; } @media only screen and (min-width: 768px) { #ymFrameHolder { width: 440px; }, #chatBoxMainContainer {height: calc(380px);}}';
+    var parentCssStyles = '#ymFrameHolder { width: 100%; } @media only screen and (min-width: 768px) { #ymFrameHolder { width: 440px; }, #chatBoxMainContainer {height: 380px;} }';
     if (parentStyles.styleSheet) {
       parentStyles.styleSheet.cssText = parentCssStyles;
     } else {
@@ -169,8 +169,3 @@ window.addEventListener('message', function(eventData) {
     }
     
 }, false);
-
-
-
-
-//custom.js
