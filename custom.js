@@ -116,12 +116,12 @@ window.addEventListener('message', function(eventData) {
         }
 
 
-        if(eventData.data == 'POPFAQ') {
+        if(eventData.data == 'ISG') {
             document.getElementById('ymIframe').contentWindow.postMessage({
                 event_code: 'ym-client-event',
                 data: {
                     event: {
-                     code: "POPFAQ",
+                     code: "ISG",
                      data: ""
                     }
                 }
@@ -142,6 +142,19 @@ window.addEventListener('message', function(eventData) {
            return;
         }
 
+        if(eventData.data == 'STRAT-COM') {
+            document.getElementById('ymIframe').contentWindow.postMessage({
+                event_code: 'ym-client-event',
+                data: {
+                    event: {
+                     code: "STRAT-COM",
+                     data: ""
+                    }
+                }
+           }, '*');
+           return;
+        }
+
         if(eventData.data == 'VCMM') {
             document.getElementById('ymIframe').contentWindow.postMessage({
                 event_code: 'ym-client-event',
@@ -154,6 +167,8 @@ window.addEventListener('message', function(eventData) {
            }, '*');
            return;
         }
+
+        
 
         if(eventData.data == 'MINIMIZE') {
             window.YellowMessengerPlugin.closeBot();

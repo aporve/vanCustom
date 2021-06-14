@@ -90,7 +90,7 @@ document.getElementById('e6').onclick = function () {
 
 document.getElementById('e7').onclick = function () {
     document.getElementById('main-header-title').innerHTML='Strategic Communications'
-    parent.postMessage("POPFAQ", "*")
+    parent.postMessage("STRAT-COM", "*")
 };
 
 document.getElementById('e8').onclick = function () {
