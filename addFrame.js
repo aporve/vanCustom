@@ -25,10 +25,10 @@
                     <div id="e6" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Retirement Planning"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/o2BBDya1HiQT1622800956549.png"/>
                     </div>
-                    <div id="e8" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Strategic Communications"> 
+                    <div id="e7" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Strategic Communications"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/GnxBWRVeIm6i1622800692538.png"/>
                     </div>
-                    <div id="e9" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="VCMM Core"> 
+                    <div id="e8" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="VCMM Core"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/g6Fdrr5NeUj01622800983140.png"/>
                     </div>
                 </ul>
@@ -53,29 +53,25 @@ function dynamicHeaderTitle(e) {
     e.preventDefault(); 
     var title = e.srcElement.getAttribute("title"); 
     document.getElementById("main-header-title").textContent = title; 
+    console.log(e,'e~~~~~~>>>');
     if(e == 'Active Passive'){
-        document.getElementById('faq').innerHTML='Active Passive'
+        console.log('1')
         parent.postMessage("ACTIVE", "*")
     }else if(e == 'Asset Allocation'){
-        document.getElementById('faq').innerHTML='Active Passive'
+        console.log('2')
         parent.postMessage("ASSET", "*")
     }else if(e == 'Economy'){
-        document.getElementById('faq').innerHTML='Economy'
+        console.log('3')
         parent.postMessage("ECON", "*")
     }else if(e == 'Investor Behaviour'){
-        document.getElementById('faq').innerHTML='Investor Behaviour'
         parent.postMessage("INVESTOR", "*")
     }else if(e == 'ISG'){
-        document.getElementById('faq').innerHTML='ISG'
         parent.postMessage("ISG", "*")
     }else if(e == 'Retirement Planning'){
-        document.getElementById('faq').innerHTML='Retirement Planning'
         parent.postMessage("RETIREMENT", "*")
     }else if(e == 'Strategic Communications'){
-        document.getElementById('faq').innerHTML='Strategic Communications'
         parent.postMessage("POPFAQ", "*")
     }else if(e == 'VCMM Core'){
-        document.getElementById('faq').innerHTML='VCMM Core'
         parent.postMessage("VCMM", "*")
     }
 }

@@ -63,6 +63,7 @@ window.addEventListener('message', function(eventData) {
 
 
         if(eventData.data == 'ACTIVE') {
+            console.log('In Custom js')
             document.getElementById('ymIframe').contentWindow.postMessage({
                 event_code: 'ym-client-event',
                 data: {
