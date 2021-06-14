@@ -1,5 +1,7 @@
 (function addFrames () {
-     try { document.querySelector('#chatContainer').insertAdjacentHTML( 
+     try { 
+        document.getElementById('player').style.width= '0px'
+        document.querySelector('#chatContainer').insertAdjacentHTML( 
          'afterbegin', 
          `<div class="mod-head-side-bar-container">
             <div class="overflow-container-sidebar">
