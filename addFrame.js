@@ -58,42 +58,42 @@ function dynamicHeaderTitle(e) {
 }
 
 document.getElementById('e1').onclick = function () {
-    document.getElementById('faq').innerHTML='Active Passive'
+    document.getElementById('main-header-title').innerHTML='Active Passive'
     parent.postMessage("ACTIVE", "*")
 };
 
 document.getElementById('e2').onclick = function () {
-    document.getElementById('faq').innerHTML='Asset Allocation'
+    document.getElementById('main-header-title').innerHTML='Asset Allocation'
     parent.postMessage("ASSET", "*")
 };
 
 document.getElementById('e3').onclick = function () {
-    document.getElementById('faq').innerHTML='Economy'
+    document.getElementById('main-header-title').innerHTML='Economy'
     parent.postMessage("ECON", "*")
 };
 
 document.getElementById('e4').onclick = function () {
-    document.getElementById('faq').innerHTML='Investor Behaviour'
+    document.getElementById('main-header-title').innerHTML='Investor Behaviour'
     parent.postMessage("INVESTOR", "*")
 };
 
 document.getElementById('e5').onclick = function () {
-    document.getElementById('faq').innerHTML='ISG'
+    document.getElementById('main-header-title').innerHTML='ISG'
     parent.postMessage("ISG", "*")
 };
 
 document.getElementById('e6').onclick = function () {
-    document.getElementById('faq').innerHTML='Retirement Planning'
+    document.getElementById('main-header-title').innerHTML='Retirement Planning'
     parent.postMessage("RETIREMENT", "*")
 };
 
 document.getElementById('e7').onclick = function () {
-    document.getElementById('faq').innerHTML='Strategic Communications'
+    document.getElementById('main-header-title').innerHTML='Strategic Communications'
     parent.postMessage("POPFAQ", "*")
 };
 
 document.getElementById('e8').onclick = function () {
-    document.getElementById('faq').innerHTML='VCMM Core'
+    document.getElementById('main-header-title').innerHTML='VCMM Core'
     parent.postMessage("VCMM", "*")
 };
 
