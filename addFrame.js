@@ -4,31 +4,31 @@
          `<div class="mod-head-side-bar-container">
             <div class="overflow-container-sidebar">
                 <ul class="sidebar-wrapper">
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 1"> 
-                        <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/LS9XYE9urVcj1605084428877.png"/>
+                    <div onclick="dynamicHeaderTitle(event)" title="title 1" style="text-decoration: none; color: #fff; width: 100%; padding: 10px; cursor: pointer; display: flex;"> 
+                        <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/LS9XYE9urVcj1605084428877.png"/ style="width: 44px; height: auto;" >
                     </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 2"> 
+                    <div id="e1" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 2"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/4dnzmSDugrwW1622800597860.png"/>
                     </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 3"> 
+                    <div  id="e2"onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 3"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/peOgkPdE8n0A1622800752931.png"/>
                         </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 4"> 
+                    <div id="e3" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 4"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/FPloPRu3LmfA1622800812350.png"/>
                     </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 5"> 
+                    <div id="e4" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 5"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/sULHcUPQH5RL1622800858305.png"/>
                     </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 6"> 
+                    <div id="e5" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 6"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/GnxBWRVeIm6i1622800692538.png"/>
                     </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 7"> 
+                    <div id="e6" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 7"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/o2BBDya1HiQT1622800956549.png"/>
                     </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 8"> 
+                    <div id="e8" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 8"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/GnxBWRVeIm6i1622800692538.png"/>
                     </div>
-                    <div onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 9"> 
+                    <div id="e9" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="title 9"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/g6Fdrr5NeUj01622800983140.png"/>
                     </div>
                 </ul>
