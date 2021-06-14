@@ -43,7 +43,6 @@ function injectDynamicCssToParent() {
 }
 
 window.addEventListener('message', function(eventData) {
-    document.getElementById('chatBoxMainContainer').style.height = '0px'
     console.log('onload---->')
     console.log(eventData);
     try{
