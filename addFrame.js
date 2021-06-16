@@ -19,7 +19,7 @@
                     <div  id="e2"onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Asset Allocation"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/peOgkPdE8n0A1622800752931.png"/>
                         </div>
-                    <div id="e3" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Economy"> 
+                    <div id="e3" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Economics"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/FPloPRu3LmfA1622800812350.png"/>
                     </div>
                     <div id="e4" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Investor Behaviour"> 
@@ -34,7 +34,7 @@
                     <div id="e7" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Strategic Communications"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/GnxBWRVeIm6i1622800692538.png"/>
                     </div>
-                    <div id="e8" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="VCMM Core"> 
+                    <div id="e8" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="VCMM Capital Markets"> 
                         <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/g6Fdrr5NeUj01622800983140.png"/>
                     </div>
                 </ul>
