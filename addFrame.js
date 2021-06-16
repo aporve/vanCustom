@@ -1,7 +1,7 @@
 (function addFrames () {
      try { 
         window.onresize=function(event){
-            var frameHeight=window.innerHeight-98-48;
+            var frameHeight=window.innerHeight-104-48;
             document.getElementById("chatBoxMainContainer").style.height=`${frameHeight}px`
         };
         document.getElementById('player').style.width= '0px'
