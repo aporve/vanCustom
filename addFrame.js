@@ -72,7 +72,7 @@ document.getElementById('e2').onclick = function () {
 };
 
 document.getElementById('e3').onclick = function () {
-    document.getElementById('main-header-title').innerHTML='Economy'
+    document.getElementById('main-header-title').innerHTML='Economics'
     parent.postMessage("ECON", "*")
 };
 
@@ -97,7 +97,7 @@ document.getElementById('e7').onclick = function () {
 };
 
 document.getElementById('e8').onclick = function () {
-    document.getElementById('main-header-title').innerHTML='VCMM Core'
+    document.getElementById('main-header-title').innerHTML='VCMM Capital Markets'
     parent.postMessage("VCMM", "*")
 };
 
