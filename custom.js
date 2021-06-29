@@ -174,6 +174,27 @@ window.addEventListener('message', function(eventData) {
             window.YellowMessengerPlugin.closeBot();
         }
 
+
+        if(eventData.data == 'Maxamize') {
+            (function injectJS() {
+                try {        
+                    var parentCssHead = document.head || document.getElementsByTagName('head')[0];
+                    var parentStyles = document.createElement('style');
+                    parentStyles.type = 'text/css';
+
+                    var parentCssStyles = '#ymFrameHolder { width: 100%; } @media only screen and (min-width: 768px) { #ymFrameHolder { width: 90%; } }';
+                    if (parentStyles.styleSheet) {
+                    parentStyles.styleSheet.cssText = parentCssStyles;
+                    } else {
+                    parentStyles.appendChild(document.createTextNode(parentCssStyles));
+                    }
+                    parentCssHead.appendChild(parentStyles);
+                } catch(e) {
+                    console.error("failed while inserting to iFrame", e);
+                }
+            })();
+        }
+
         // if(eventData.data == 'MINIMIZE') {
         //     document.getElementById('ymIframe').style.display ="none"
         // }
