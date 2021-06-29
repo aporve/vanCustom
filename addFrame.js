@@ -42,12 +42,14 @@
             <div class="overflow-container-header">
                 <ul class="header-wrapper">
                     <div class="header-title" id="main-header-title" style="font-weight: 700; font-size: x-large;color: black;">Vanguard</div>
-                    <div id="e10" class="icons-box"> 
+                   <div>
+                        <div id="e10"> 
                         <span class="header-bar-icon-box" title="maxamize">_</span>
-                     </div>
-                    <div id="e9" class="icons-box"> 
-                        <span class="header-bar-icon-box" title="Close">x</span>
-                     </div>
+                        </div>
+                        <div id="e9" class="icons-box"> 
+                            <span class="header-bar-icon-box" title="Close">x</span>
+                        </div>
+                   </div>
                      
                 </ul>
             </div>
