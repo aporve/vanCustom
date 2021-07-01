@@ -46,7 +46,7 @@
                         <div id="e11" class="icons-box"> 
                             <span class="header-bar-icon-box" title="minimize">-</span>
                         </div>
-                        <div id="e10" class="icons-box"> 
+                        <div id="e10" style="cursor:pointer;"> 
                         <span class="header-bar-icon-box" title="maxamize"><img src="https://cdn.yellowmessenger.com/m65zoVM7Si3s1624952263631.png" style="width: 1.7rem; height: 20px;" /></span>
                         </div>
                         <div id="e9" class="icons-box"> 
