@@ -118,6 +118,6 @@ document.getElementById('e10').onclick = function () {
     parent.postMessage("Maxamize", "*")
 };
 
-document.getElementById('e9').onclick = function () {
+document.getElementById('e11').onclick = function () {
     parent.postMessage("MINIMIZE", "*")
 };
