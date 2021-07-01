@@ -41,7 +41,7 @@
             </div>
             <div class="overflow-container-header">
                 <ul class="header-wrapper">
-                    <div class="header-title" id="main-header-title" style="font-weight: 700; font-size: x-large;color: black;">Vanguard</div>
+                    <div class="header-title" id="main-header-title" style="font-weight: 700; font-size: large;color: black;">AskISG</div>
                    <div style="display:flex;align-items:center;">
                         <div id="e11" class="icons-box"> 
                             <span class="header-bar-icon-box" title="minimize">-</span>
