@@ -170,7 +170,7 @@ window.addEventListener('message', function(eventData) {
 
         
 
-        if(eventData.data == 'MINIMIZE') {
+        if(eventData.data == 'CLOSE') {
             window.YellowMessengerPlugin.closeBot();
         }
 
@@ -183,6 +183,27 @@ window.addEventListener('message', function(eventData) {
                     parentStyles.type = 'text/css';
 
                     var parentCssStyles = '#ymFrameHolder { width: 100%; } @media only screen and (min-width: 768px) { #ymFrameHolder { width: 90%; } }';
+                    if (parentStyles.styleSheet) {
+                    parentStyles.styleSheet.cssText = parentCssStyles;
+                    } else {
+                    parentStyles.appendChild(document.createTextNode(parentCssStyles));
+                    }
+                    parentCssHead.appendChild(parentStyles);
+                } catch(e) {
+                    console.error("failed while inserting to iFrame", e);
+                }
+            })();
+        }
+
+
+        if(eventData.data == 'MINIMIZE') {
+            (function injectJS() {
+                try {        
+                    var parentCssHead = document.head || document.getElementsByTagName('head')[0];
+                    var parentStyles = document.createElement('style');
+                    parentStyles.type = 'text/css';
+
+                    var parentCssStyles = '#ymFrameHolder { width: 100%; } @media only screen and (min-width: 768px) { #ymFrameHolder { width: 440px; } }';
                     if (parentStyles.styleSheet) {
                     parentStyles.styleSheet.cssText = parentCssStyles;
                     } else {
