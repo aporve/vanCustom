@@ -10,7 +10,7 @@
         `<div class="mod-head-side-bar-container">
            <div class="overflow-container-sidebar">
                <ul class="sidebar-wrapper">
-                   <div onclick="dynamicHeaderTitle(event)" title="title 1" style="text-decoration: none; color: #fff; width: 100%; padding: 10px; cursor: pointer; display: flex;"> 
+                   <div style="text-decoration: none; color: #fff; width: 100%; padding: 10px; cursor: pointer; display: flex;"> 
                        <img class="sidebar-img-icon" src="https://cdn.yellowmessenger.com/LS9XYE9urVcj1605084428877.png"/ style="width: 44px; height: auto;" >
                    </div>
                    <div id="e1" onclick="dynamicHeaderTitle(event)" class="side-bar-icon-box" title="Active Passive"> 
